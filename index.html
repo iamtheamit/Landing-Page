@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="icon" href="" type="image/png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Thrill Tourism - Your Ultimate Travel Classifieds Directory</title>
+</head>
+<body>
+  <nav class="bg-white text-black flex justify-between px-4 md:px-10 lg:px-20 xl:px-36 py-5">
+    <img src="https://www.thrilltourism.com/assets/images/logo-dark.png" alt="logo" class="h-10" />
+    <ul class="hidden md:flex space-x-7 items-center">
+      <li>
+        <a href="#" class="nav-link">
+          <i class="fas fa-home"></i> Home
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link">
+          <i class="fa-solid fa-bars" style="color: #000000;"></i> All Listings
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link">
+          <i class="fa-solid fa-rss" style="color: #000000;"></i> Blogs
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link">
+          <i class="fa-solid fa-envelope" style="color: #000000;"></i> Contact Us
+        </a>
+      </li>
+    </ul>
+    <button class="md:hidden">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </nav>
+  <main>
+    <div class="container mx-auto px-4 py-8">
+      <div class="flex flex-wrap">
+        <div class="w-full mt-10 md:w-1/2 md:order-2">
+          <img class="w-full h-auto md:-my-20" src="assets/img.png" alt="Image description">
+        </div>
+        <div class="w-full md:w-1/2 md:order-1 mt-10 md:mt-0">
+          <h1 class="text-3xl md:text-5xl lg:text-7xl md:my-28 ">About thrilltourism</h1>
+          <br>
+          <p class="text-base md:text-xl md:-my-28 text-gray-800 ">Tourism includes all economic activities which are organised to fulfill the needs of such travellers. Any travel for holidaying, business or professional trips becomes a part of tourism if it is temporary, is undertaken voluntarily and does not aim at earning any livelihood.
+            According to Ziffer (1989), “Tourism involves travelling to relatively undisturbed or uncontaminated natural areas with the specific object of studying, admiring and enjoying the scenery and its wild plants and animals, as well as any existing cultural aspects (both past and present) found in these areas”.
+            Tourism for some provides entertainment, for others it serves as a holiday and for yet others it is a means of understanding other peoples’ ways of life, cultures and traditions. According to a Chinese proverb, “Travelling a mile imparts more knowledge than reading a mile of written words.
+            In today’s world, tourism is an important socio-economic activity. Tourism is now recognised as an industry generating a number of social and economic benefits. It promotes national integration and international understanding, helps in improving infrastructure, creates employment opportunities and augments foreign exchange earnings. Tourism is as much a part of socio-economic development as any other related activity.</p>
+        </div>
+      </div>
+    </div>
+    <section class="locations bg-gray-100 py-8">
+      <div class="container mx-auto px-4">
+        <h3 class="text-2xl text-center mb-4 font-bold">Enter Location to get places near you</h3>
+        <div class="flex flex-col md:flex-row items-center justify-center md:space-x-4">
+          <input type="text" class="border border-gray-300 px-4 py-2 rounded-lg mb-4 md:mb-0" placeholder="Type your location">
+          <button class="px-6 py-2 bg-blue-500 text-white rounded-lg">Search</button>
+        </div>
+      </div>
+    </section>
+    <section class="places-to-visit mt-8">
+      <div class="container mx-auto px-4">
+        <h1 class="text-3xl md:text-5xl lg:text-4xl text-center">Places to Visit</h1>
+    
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
+          <div class="bg-white w-full sm:w-96 p-6 rounded-lg shadow-lg">
+            <img class="w-full h-auto" src="https://w7.pngwing.com/pngs/912/661/png-transparent-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-map.png" alt="Place 1">
+            <h3 class="text-lg font-semibold mt-4">Place 1</h3>
+            <p class="text-gray-600">Description of Place 1. You can add some details about this place here.</p>
+            <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Get directions</button>
+          </div>
+          <div class="bg-white w-full sm:w-96 p-6 rounded-lg shadow-lg">
+            <img class="w-full h-auto" src="https://w7.pngwing.com/pngs/912/661/png-transparent-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-map.png" alt="Place 1">
+            <h3 class="text-lg font-semibold mt-4">Place 2</h3>
+            <p class="text-gray-600">Description of Place 1. You can add some details about this place here.</p>
+            <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Get directions</button>
+          </div>
+          <div class="bg-white w-full sm:w-96 p-6 rounded-lg shadow-lg">
+            <img class="w-full h-auto" src="https://w7.pngwing.com/pngs/912/661/png-transparent-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-map.png" alt="Place 1">
+            <h3 class="text-lg font-semibold mt-4">Place 3</h3>
+            <p class="text-gray-600">Description of Place 1. You can add some details about this place here.</p>
+            <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Get directions</button>
+          </div>
+          <div class="bg-white w-full sm:w-96 p-6 rounded-lg shadow-lg">
+            <img class="w-full h-auto" src="https://w7.pngwing.com/pngs/912/661/png-transparent-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-map.png" alt="Place 1">
+            <h3 class="text-lg font-semibold mt-4">Place 4</h3>
+            <p class="text-gray-600">Description of Place 1. You can add some details about this place here.</p>
+            <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Get directions</button>
+          </div>
+          <div class="bg-white w-full sm:w-96 p-6 rounded-lg shadow-lg">
+            <img class="w-full h-auto" src="https://w7.pngwing.com/pngs/912/661/png-transparent-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-map.png" alt="Place 1">
+            <h3 class="text-lg font-semibold mt-4">Place 5</h3>
+            <p class="text-gray-600">Description of Place 1. You can add some details about this place here.</p>
+            <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Get directions</button>
+          </div>
+          <div class="bg-white w-full sm:w-96 p-6 rounded-lg shadow-lg">
+            <img class="w-full h-auto" src="https://w7.pngwing.com/pngs/912/661/png-transparent-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-map.png" alt="Place 1">
+            <h3 class="text-lg font-semibold mt-4">Place 6</h3>
+            <p class="text-gray-600">Description of Place 1. You can add some details about this place here.</p>
+            <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Get directions</button>
+          </div>
+          <div class="bg-white w-full sm:w-96 p-6 rounded-lg shadow-lg">
+            <img class="w-full h-auto" src="https://w7.pngwing.com/pngs/912/661/png-transparent-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-map.png" alt="Place 1">
+            <h3 class="text-lg font-semibold mt-4">Place 7</h3>
+            <p class="text-gray-600">Description of Place 1. You can add some details about this place here.</p>
+            <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Get directions</button>
+          </div>
+          <div class="bg-white w-full sm:w-96 p-6 rounded-lg shadow-lg">
+            <img class="w-full h-auto" src="https://w7.pngwing.com/pngs/912/661/png-transparent-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-map.png" alt="Place 1">
+            <h3 class="text-lg font-semibold mt-4">Place 8</h3>
+            <p class="text-gray-600">Description of Place 1. You can add some details about this place here.</p>
+            <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Get directions</button>
+          </div>
+          <div class="bg-white w-full sm:w-96 p-6 rounded-lg shadow-lg">
+            <img class="w-full h-auto" src="https://w7.pngwing.com/pngs/912/661/png-transparent-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-map.png" alt="Place 1">
+            <h3 class="text-lg font-semibold mt-4">Place 9</h3>
+            <p class="text-gray-600">Description of Place 1. You can add some details about this place here.</p>
+            <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Get directions</button>
+          </div>
+          <!-- Add more places as needed -->
+        </div>
+      </div>
+    </section>
+    <div class="container mx-auto px-4 py-8">
+      <div class="w-9/12 md:w-1/2 mx-auto bg-white rounded-lg shadow-lg p-6 mb-8 text-center">
+        <h1 class="text-2xl font-semibold mb-2">List your tourism services for free</h1>
+        <p class="text-gray-600 mb-4">
+          Thrill tourism is an online platform that enables tourists to directly connect with hosts, without any commission fees.
+        </p>
+        <button
+          class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          type="button"
+        >
+          Publish Your Ad for Free
+        </button>
+      </div>
+  </main>
+   <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div class="md:w-1/2 mb-4 md:mb-0">
+          <h4 class="text-lg font-semibold">Contact Information</h4>
+          <p>Email: contact@thrilltourism.com</p>
+          <p>Phone: +1 (123) 456-7890</p>
+          <p>Address: 123 Thrill Street, Adventure City</p>
+        </div>
+        <div class="md:w-1/2">
+          <h4 class="text-lg font-semibold">Useful Links</h4>
+          <ul class="mt-2 flex flex-wrap justify-around md:justify-start space-x-4">
+            <li><a href="#" class="text-white hover:text-blue-500">Home</a></li>
+            <li><a href="#" class="text-white hover:text-blue-500">All Listings</a></li>
+            <li><a href="#" class="text-white hover:text-blue-500">Blogs</a></li>
+            <li><a href="#" class="text-white hover:text-blue-500">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto px-4 mt-4 text-center">
+      <p class="text-sm">&copy; 2023 Thrill Tourism. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
